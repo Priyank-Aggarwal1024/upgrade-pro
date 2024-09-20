@@ -1,0 +1,218 @@
+:root {
+    --Woodsmoke-950: #1B1B1D;
+    --light-black: #585858;
+}
+
+.abcd-text-black {
+    color: black;
+}
+
+.abcd-text-white {
+    color: white;
+}
+
+.abcd-text-pink {
+    color: #800080;
+}
+
+.abcd-text-light-pink {
+    color: var(--800080, rgba(128, 0, 128, 0.87));
+}
+
+.abcd-bg-light-pink {
+    background: rgba(128, 0, 128, 0.87);
+}
+
+.abcd-wood-smoke-950 {
+    color: var(--Woodsmoke-950);
+}
+
+.abcd-text-light-black {
+    color: var(--light-black);
+}
+
+.abcd-f-55 {
+    font-size: 55px;
+}
+
+.abcd-f-34 {
+    font-size: 34px;
+}
+
+.abcd-td-lt {
+    text-decoration: line-through;
+}
+
+.abcd-f-20 {
+    font-size: 20px;
+}
+
+.abcd-f-48 {
+    font-size: 48px;
+}
+
+.abcd-f-18 {
+    font-size: 18px;
+}
+
+.abcd-f-16 {
+    font-size: 16px;
+}
+
+.abcd-fw-400 {
+    font-weight: 400;
+}
+
+.abcd-fw-500 {
+    font-weight: 500;
+}
+
+.abcd-fw-600 {
+    font-weight: 600;
+}
+
+.abcd-fw-700 {
+    font-weight: 700;
+}
+
+.abcd-fw-800 {
+    font-weight: 800;
+}
+
+.abcd-fw-900 {
+    font-weight: 900;
+}
+
+.abcd-va-mid {
+    vertical-align: middle;
+}
+
+.abcd-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 64px 64px;
+}
+
+.abcd-text-center {
+    text-align: center;
+}
+
+.abcd-f-45 {
+    font-size: 45px;
+}
+
+@media (width>1280px) {
+    .abcd-section {
+        max-width: 100%;
+    }
+}
+
+@media (width<1280px) {
+    .abcd-section {
+        padding: 64px 64px;
+    }
+
+    .abcd-f-55 {
+        font-size: 50px;
+    }
+}
+
+@media (width<1180px) {
+    .abcd-f-55 {
+        font-size: 42px;
+    }
+}
+
+@media (width<980px) {
+    .abcd-section {
+        padding: 64px 32px;
+    }
+
+    .abcd-f-55 {
+        font-size: 45px;
+    }
+}
+
+@media (width<780px) {
+    .abcd-section {
+        padding: 64px 32px;
+    }
+
+    .abcd-f-16 {
+        font-size: 15px;
+    }
+
+    .abcd-f-18 {
+        font-size: 15px;
+    }
+
+    .abcd-f-48 {
+        font-size: 38px;
+    }
+
+    .abcd-f-45 {
+        font-size: 40px;
+    }
+}
+
+@media (width<580px) {
+    .abcd-f-34 {
+        font-size: 31px;
+    }
+
+    .abcd-f-45 {
+        font-size: 35px;
+    }
+
+    .abcd-f-20 {
+        font-size: 18px;
+    }
+}
+
+@media (width<480px) {
+    .abcd-f-20 {
+        font-size: 16px;
+    }
+
+    .abcd-section {
+        padding: 48px 16px;
+    }
+
+    .abcd-f-45 {
+        font-size: 30px;
+    }
+
+    .abcd-f-55 {
+        font-size: 35px;
+    }
+
+    .abcd-f-48 {
+        font-size: 30px;
+    }
+
+    .abcd-f-16 {
+        font-size: 14px;
+    }
+
+    .abcd-f-18 {
+        font-size: 12px;
+    }
+
+    .abcd-f-34 {
+        font-size: 28px;
+    }
+}
+
+
+
+@media (width<1280px) {}
+
+@media (width<1080px) {}
+
+@media (width<780px) {}
+
+@media (width<580px) {}
+
+@media (width<480px) {}
+
+@media (width<360px) {}

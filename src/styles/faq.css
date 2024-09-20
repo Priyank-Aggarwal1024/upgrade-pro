@@ -1,0 +1,157 @@
+.abcd-faq {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 20px;
+    column-gap: 34px;
+}
+
+.abcd-checkbox {
+    display: none;
+}
+
+.abcd-ans {
+    color: var(--Grey-30, #4C4C4C);
+    font-family: Poppins;
+    font-size: 15.765px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 23.647px */
+    letter-spacing: -0.095px;
+}
+
+.abcd-faq-left,
+.abcd-faq-right {
+    display: flex;
+    padding: 45.042px;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+
+    border-radius: 13.513px;
+    border: 1.126px solid var(--Linear, #B1B1B1);
+    background: linear-gradient(100deg, rgba(177, 177, 177, 0.20) 0.89%, rgba(189, 189, 189, 0.20) 9.58%, rgba(235, 230, 230, 0.20) 26.9%, rgba(255, 255, 255, 0.20) 44.84%, rgba(240, 240, 240, 0.20) 64.21%, rgba(203, 203, 203, 0.20) 84.67%, rgba(190, 190, 190, 0.20) 102.86%);
+}
+
+
+.abcd-faq-item {
+    display: flex;
+    padding: 27.025px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27.025px;
+    align-self: stretch;
+    border-bottom: 1.126px solid var(--Linear, #D5D5D5);
+}
+
+.abcd-ques {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 22px;
+    color: var(--Grey-20, #333);
+    font-family: Poppins;
+    font-size: 18.017px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 27.025px */
+
+}
+
+.abcd-refund-faq-heading,
+.abcd-checkout-faq-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 36px */
+    background: var(--Linear, linear-gradient(90deg, #800080 3.92%, #B466C1 52.78%, #800080 92.42%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+@media (width<1080px) {
+    .abcd-faq {
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content fit-content;
+    }
+
+    .abcd-faq-left,
+    .abcd-faq-right {
+        height: fit-content;
+
+    }
+}
+
+@media (width<580px) {
+
+    .abcd-refund-faq-heading,
+    .abcd-checkout-faq-heading {
+        font-size: 25px;
+    }
+
+    .abcd-faq-left,
+    .abcd-faq-right {
+        padding: 45.042px 12px;
+
+
+    }
+
+    .abcd-refund-faq-heading,
+    .abcd-checkout-faq-heading {
+        margin-bottom: 14px;
+    }
+
+    .abcd-ques {
+        font-size: 16px;
+    }
+
+    .abcd-ans {
+        font-size: 14px;
+    }
+
+    .abcd-faq-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .abcd-faq-icon>img {
+        width: inherit;
+        height: inherit;
+    }
+
+}
+
+@media (width<480px) {
+
+    .abcd-refund-faq-heading,
+    .abcd-checkout-faq-heading {
+        font-size: 20px;
+    }
+}
+
+@media (width<360px) {
+    .abcd-faq-item {
+        padding: 18px 0;
+        gap: 18px;
+    }
+
+    .abcd-ques {
+        gap: 14px;
+        font-size: 15px;
+    }
+
+    .abcd-ans {
+        font-size: 12px;
+    }
+
+
+}

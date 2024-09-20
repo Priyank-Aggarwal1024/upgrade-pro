@@ -1,0 +1,47 @@
+.abcd-courses {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.abcd-course-heading {
+    color: var(--Woodsmoke-700, #4C4D52);
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 41.6px */
+}
+
+.abcd-course {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.abcd-course-div {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.abcd-course-div-outer {
+    margin: 0 auto;
+}
+
+@media(width<580px) {
+    .abcd-course-heading {
+        font-size: 28px;
+    }
+}
+
+@media(width<580px) {
+    .abcd-course-heading {
+        font-size: 24px;
+    }
+}
