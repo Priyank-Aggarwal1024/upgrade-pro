@@ -26,7 +26,7 @@ function Hero(props) {
                     <p className="abcd-hbp">Upgrade your Course and increase REFUND validity to <span className="abcd-fw-700">2 Year</span></p>
                     <button className="abcd-hero-button">
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                            <g clip-path="url(#clip0_844_1752)">
+                            <g clipPath="url(#clip0_844_1752)">
                                 <path d="M11.0018 15.566V6.91733M15.3261 10.3768L11.0018 6.05247L6.67747 10.3768M11.0018 19.8903C16.2558 19.8903 20.5153 15.6308 20.5153 10.3768C20.5153 5.12274 16.2558 0.863281 11.0018 0.863281C5.74774 0.863281 1.48828 5.12274 1.48828 10.3768C1.48828 15.6308 5.74774 19.8903 11.0018 19.8903Z" stroke="white" strokeWidth="1.72973" />
                             </g>
                             <defs>

@@ -78,12 +78,12 @@ function UpgradeCourses() {
                                 <div className="abcd-upgc-mc-bottom">
                                     {item.purchased ? <div className="abcd-upgc-purchased">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="12" viewBox="0 0 22 12" fill="none">
-                                            <path d="M1.45703 7.05078L5.20703 10.8008M10.457 4.80078L14.207 1.05078M7.45703 7.05078L11.207 10.8008L20.207 1.05078" stroke="#29BF12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M1.45703 7.05078L5.20703 10.8008M10.457 4.80078L14.207 1.05078M7.45703 7.05078L11.207 10.8008L20.207 1.05078" stroke="#29BF12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                         <span>Already purchased</span>
                                     </div> : <div className="abcd-upgc-npurchased">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
-                                            <g clip-path="url(#clip0_844_2423)">
+                                            <g clipPath="url(#clip0_844_2423)">
                                                 <path d="M13.4948 5.80078C8.07812 5.80078 3.45229 9.16995 1.57812 13.9258C3.45229 18.6816 8.07812 22.0508 13.4948 22.0508C18.9115 22.0508 23.5373 18.6816 25.4115 13.9258C23.5373 9.16995 18.9115 5.80078 13.4948 5.80078ZM13.4948 19.3424C10.5048 19.3424 8.07812 16.9158 8.07812 13.9258C8.07812 10.9358 10.5048 8.50911 13.4948 8.50911C16.4848 8.50911 18.9115 10.9358 18.9115 13.9258C18.9115 16.9158 16.4848 19.3424 13.4948 19.3424ZM13.4948 10.6758C11.6965 10.6758 10.2448 12.1274 10.2448 13.9258C10.2448 15.7241 11.6965 17.1758 13.4948 17.1758C15.2931 17.1758 16.7448 15.7241 16.7448 13.9258C16.7448 12.1274 15.2931 10.6758 13.4948 10.6758Z" fill="#800080" />
                                             </g>
                                             <defs>
@@ -111,7 +111,7 @@ function UpgradeCourses() {
                 </div>
                 <button className="abcd-hero-button abcd-upbt-right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                        <g clip-path="url(#clip0_844_1752)">
+                        <g clipPath="url(#clip0_844_1752)">
                             <path d="M11.0018 15.566V6.91733M15.3261 10.3768L11.0018 6.05247L6.67747 10.3768M11.0018 19.8903C16.2558 19.8903 20.5153 15.6308 20.5153 10.3768C20.5153 5.12274 16.2558 0.863281 11.0018 0.863281C5.74774 0.863281 1.48828 5.12274 1.48828 10.3768C1.48828 15.6308 5.74774 19.8903 11.0018 19.8903Z" stroke="white" strokeWidth="1.72973" />
                         </g>
                         <defs>
